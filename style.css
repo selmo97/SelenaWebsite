@@ -4,7 +4,7 @@
 
 nav {
   box-shadow: 0 0 12px -2px pink;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   right: 0;
   align-items: center;
@@ -36,7 +36,7 @@ main {
   min-height: 100vh;
   padding: 85px 24px 96px;
   box-shadow: 0 0 12px -2px pink;
-  color: #8b3e2f;
+  color: #8b3e2f; 
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
   display: flex;
@@ -50,8 +50,8 @@ main {
   
 }
 
+/* note to self: fix this color and position  */
 footer {
-  background-color: #333333;
   color: aliceblue;
   height: 70px;
   padding: 10px;
@@ -156,10 +156,6 @@ section {
   border-bottom: 1px solid #ccc;
 }
 
-@media screen and (max-width: 625px) {
-  .project {
-    width: 100%;
-  }
 
   .project-content {
     display: flex;
@@ -194,7 +190,4 @@ section {
     margin: 0;
   }
 
-  #form {
-    margin: 0;
-  }
-}
+
