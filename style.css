@@ -17,6 +17,7 @@ nav {
 }
 #girl {
   font-size: x-small;
+  color: pink;
 }
 
 html {
@@ -34,7 +35,7 @@ a {
 
 main {
   min-height: 100vh;
-  padding: 85px 24px 96px;
+  padding: 85px 24px;
   box-shadow: 0 0 12px -2px pink;
   color: #8b3e2f; 
   font-family: "Open Sans", sans-serif;
@@ -50,27 +51,20 @@ main {
   
 }
 
-/* note to self: fix this color and position  */
-footer {
-  color: aliceblue;
-  height: 70px;
-  padding: 10px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
+/* footer  on index page*/
+.footer {
+  color: black;
   text-align: center;
-  box-shadow: 0 0 12px -2px pink;
+  font-size: xx-small;
+  display: flex;
+  padding: 0 auto;
+  justify-content: center;
+  border: pink 2px;
+
 }
 
-footer a {
-  margin: 0 25px;
-}
 
-footer .media-link {
-  height: 45px;
-}
+
 
 .active {
   border-bottom: 1px solid #c0c0c0;
@@ -83,11 +77,11 @@ img {
   margin: 10px 0 10px 10px;
 }
 main .quote {
-  font-family: "Brush Script M7", cursive;
-  color: #698b69;
+  font-family: "Lucida Handwriting", cursive;
+  color: white;
   font-size: 50px;
   font-weight: 100;
-  text-shadow: 1px 1px 2px white;
+  text-shadow: 1px 1px 2px pink;
   text-align: center;
   margin-top: 4em;
 }
@@ -186,8 +180,17 @@ section {
     height: unset;
   }
 
-  footer a {
-    margin: 0;
-  }
-
-
+#form {
+  border-radius: 25%;
+  font-display: flex;
+  display: flex;
+  border: white dotted 2px;
+  height: 300px;
+  max-height: 1000px;
+  width: 300px;
+  overflow: scroll;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  margin: 10px auto;
+}
